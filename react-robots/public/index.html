@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>React Robots</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="Description" content="A place for all my robofriends" />
+
+    <link href="css/addtohomescreen.min.css" rel="stylesheet" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="React App" />
+    <meta name="apple-mobile-web-app-title" content="React App" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <link rel="apple-touch-icon" href="meta/ios/ios-appicon-120-120.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="meta/ios/ios-appicon-152-152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="meta/ios/ios-appicon-180-180.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="meta/ios/ios-appicon-120-120.png"
+    />
+    <link
+      href="meta/ios/apple-touch-startup-image-320x460.png"
+      media="(device-width: 320px)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPhone (Retina) SPLASHSCREEN-->
+    <link
+      href="meta/ios/apple-touch-startup-image-640x920.png"
+      media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPad (portrait) SPLASHSCREEN-->
+    <link
+      href="meta/ios/apple-touch-startup-image-768x1004.png"
+      media="(device-width: 768px) and (orientation: portrait)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPad (landscape) SPLASHSCREEN-->
+    <link
+      href="meta/ios/apple-touch-startup-image-748x1024.png"
+      media="(device-width: 768px) and (orientation: landscape)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPad (Retina, portrait) SPLASHSCREEN-->
+    <link
+      href="meta/ios/apple-touch-startup-image-1536x2008.png"
+      media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPad (Retina, landscape) SPLASHSCREEN-->
+    <link
+      href="meta/ios/apple-touch-startup-image-2048x1496.png"
+      media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPhone 6/7/8 -->
+    <link
+      href="/meta/ios/apple-touch-startup-image-750x1334.png"
+      media="(device-width: 375px) and (-webkit-device-pixel-ratio: 2)"
+      rel="apple-touch-startup-image"
+    />
+    <!-- iPhone 6 Plus/7 Plus/8 Plus -->
+    <link
+      href="/meta/ios/apple-touch-startup-image-1242x2208.png"
+      media="(device-width: 414px) and (-webkit-device-pixel-ratio: 3)"
+      rel="apple-touch-startup-image"
+    />
+
+    <meta name="msapplication-starturl" content="./" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link href="favicon.ico" rel="shortcut icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="meta/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="meta/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="meta/favicon-96x96.png"
+      sizes="96x96"
+    />
+
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="manifest.json" />
+    <meta name="generator" content="PWA Starter" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script
+      src="a2hs/addtohomescreen.min.js"
+      type="application/javascript"
+    ></script>
+
+    <script src="a2hs/addtohomescreen.js"></script>
+    <script>
+      addToHomescreen({
+        appID: "app.vercel.react-robots",
+        appName: "Create React App Sample",
+        lifespan: 15,
+        autostart: true,
+        skipFirstVisit: true,
+        minSessions: 1,
+        displayPace: 0,
+        customPrompt: {
+          title: "Install Create React App Sample?",
+          src: "meta/favicon-96x96.png",
+          cancelMsg: "Cancel",
+          installMsg: "Install",
+        },
+      });
+    </script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then(function (registration) {
+            // Registration was successful
+
+            console.log(
+              "ServiceWorker registration successful with scope: ",
+              registration.scope
+            );
+          })
+          .catch(function (err) {
+            // registration failed :(
+
+            console.log("ServiceWorker registration failed: ", err);
+          });
+      }
+    </script>
+  </body>
+</html>

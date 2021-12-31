@@ -1,0 +1,33 @@
+.user-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 30rem;
+}
+
+.user-item a:hover,
+.user-item a:active {
+    background: cornflowerblue;
+    cursor: pointer;
+}
+
+.card.user-item__content {
+    padding: 0;
+}
+
+.user-item__image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.user-item__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: black;
+}
+
+
+.user-item__info h3 {
+    margin: 0;
+}

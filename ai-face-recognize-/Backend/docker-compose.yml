@@ -1,0 +1,36 @@
+version: '3.9'
+services:
+
+  # PostgreSQL
+  postgres:
+    container_name: postgres
+    build: ./postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ai-face-recognize
+      POSTGRES_HOST: postgres
+    ports:
+      - "5432:5432"
+
+    # Redis
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - "6379:6379"
+
+  # Backend API
+  ai-face-recognize-api:
+    container_name: backend
+    build: ./
+    volumes:
+      - ./:/usr/src/ai-face-recognize-api
+    command: npm start
+    working_dir: /usr/src/ai-face-recognize-api
+    ports:
+      - "3000:3000"
+    environment:
+      POSTGRESS_URI: postgres://admin:password@postgres:5432/ai-face-recognize
+      REDIS_URI: redis://redis:6379
+

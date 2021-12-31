@@ -1,0 +1,11 @@
+{
+    "isProduction:": true,
+    "mysql": {
+        "host": "",
+        "user": "",
+        "password": "",
+        "name": ""
+    },
+    "jwtKey": "ThereIsNoPlaceLikeHome",
+    "passwordSecretSalt": "MakeThingsGoRight"
+}

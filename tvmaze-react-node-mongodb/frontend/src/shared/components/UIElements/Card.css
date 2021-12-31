@@ -1,0 +1,20 @@
+.card {
+  margin: 0;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+}
+
+.card-form{
+  margin: 7rem auto;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+  width: 90%;
+  max-width: 25rem;
+  text-align: center;
+}

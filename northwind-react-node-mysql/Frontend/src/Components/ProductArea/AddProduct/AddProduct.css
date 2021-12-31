@@ -1,0 +1,15 @@
+.AddProduct input {
+	width: 250px;
+    box-sizing: border-box;
+}
+
+.AddProduct button {
+	width: 250px;
+    margin: 15px 0;
+}
+
+.AddProduct span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+}

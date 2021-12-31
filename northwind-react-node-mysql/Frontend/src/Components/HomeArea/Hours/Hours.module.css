@@ -1,0 +1,12 @@
+.Hours {
+	background-image: linear-gradient(magenta, darkmagenta);
+}
+
+.CoolText {
+    background-color: green;
+    color: white;
+}
+
+.Hours > p {
+    font-size: smaller;
+}

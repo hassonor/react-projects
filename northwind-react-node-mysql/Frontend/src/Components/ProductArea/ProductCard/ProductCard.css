@@ -1,0 +1,20 @@
+.ProductCard {
+	width: 300px;
+    display: inline-flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, lightgreen, white);
+    padding-right: 0;
+}
+
+.ProductCard img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.ProductCard > a {
+    margin-left: auto;
+}

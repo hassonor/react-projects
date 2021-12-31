@@ -1,0 +1,7 @@
+{
+    "database": {
+        "connectionString": "mongodb://localhost:27017/usersDB"
+    },
+    "JWT_SECRET": "HELLOTHEREPROJECT",
+    "PORT": 3002
+}

@@ -1,0 +1,33 @@
+.member-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 30rem;
+}
+
+.member-item a:hover,
+.member-item a:active {
+    background: cornflowerblue;
+    cursor: pointer;
+}
+
+.card.member-item__content {
+    padding: 0;
+}
+
+.member-item__image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.member-item__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: black;
+}
+
+
+.member-item__info h3 {
+    margin: 0;
+}

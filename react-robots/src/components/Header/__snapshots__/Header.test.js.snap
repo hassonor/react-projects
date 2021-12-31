@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Header Component 1`] = `
+<Fragment>
+  <h1
+    className="f1"
+  >
+    Robots React
+  </h1>
+  <CounterButton />
+</Fragment>
+`;

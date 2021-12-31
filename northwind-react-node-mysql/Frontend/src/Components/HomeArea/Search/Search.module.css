@@ -1,0 +1,18 @@
+.Search {
+	padding: 10px;
+}
+
+.TextBox {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.SpanText {
+    color: magenta;
+    font-weight: bold;
+}
+
+.Button {
+    background-color: darkgoldenrod;
+    color: lightpink;
+}

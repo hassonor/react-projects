@@ -1,0 +1,7 @@
+{
+    "database": {
+        "connectionString": "mongodb://localhost:27017/SubscriptionsDB"
+    },
+    "PORT": 3001
+}
+

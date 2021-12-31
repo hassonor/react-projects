@@ -1,0 +1,5 @@
+html, body, #root {
+    height: 100%;
+    background-image: linear-gradient(magenta, darkmagenta);
+    color: white;
+}

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Northwind.suppliers"}],"uuid":"6260003896a8404e9f4e51bdda1a723e"}

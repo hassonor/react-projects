@@ -1,0 +1,11 @@
+{
+    "isProduction:": false,
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "name": "Northwind"
+    },
+    "jwtKey": "ThereIsNoPlaceLikeHome",
+    "passwordSecretSalt": "MakeThingsGoRight"
+}

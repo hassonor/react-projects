@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "_id": "619a031daaa0234496ce4ba8",
+      "firstName": "Or",
+      "lastName": "Hasson",
+      "createdDate": "2021-11-21",
+      "sessionTimeOut": 12000000
+    },
+    {
+      "_id": "61a749ca1b3b8438b8ebde06",
+      "firstName": "aba",
+      "lastName": "aba",
+      "createdDate": "2021-12-01",
+      "sessionTimeOut": 20
+    },
+    {
+      "_id": "61a749e1fe8fe352a6b2a724",
+      "firstName": "ima",
+      "lastName": "ima",
+      "createdDate": "2021-12-01",
+      "sessionTimeOut": 2
+    },
+    {
+      "_id": "61a749f8fb6b7e79f59c7923",
+      "firstName": "doda",
+      "lastName": "doda",
+      "createdDate": "2021-12-01",
+      "sessionTimeOut": 20
+    },
+    {
+      "_id": "61a74e293e6509ef3cd2f502",
+      "firstName": "safta",
+      "lastName": "safta",
+      "createdDate": "2021-12-01",
+      "sessionTimeOut": 1
+    }
+  ]
+}
